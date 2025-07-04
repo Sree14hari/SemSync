@@ -1,7 +1,5 @@
-```markdown
 # 📚 KTU Companion - Student Portal
 
-![App Banner](https://via.placeholder.com/800x200/0D47A1/FFFFFF?text=KTU+Companion) *(Replace with actual screenshots)*
 
 A **Flutter-powered** all-in-one academic companion for APJ Abdul Kalam Technological University students, providing seamless access to results, study materials, and smart learning tools.
 
