@@ -116,10 +116,5 @@ MIT License • Contribute at github.com/yourusername/ktu-companion
 
 ## 🙋 Support
 ```email
-ktu.support@example.com • @ktucompanion
-```
-
----
-
-> **Pro Tip**: The AI features can run entirely offline after initial setup - perfect for exam hall preparation areas with restricted internet access.
+sreehari14shr@gmail.com
 ```
