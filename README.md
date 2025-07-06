@@ -1,4 +1,4 @@
-# 📚 KTU Companion - Student Portal
+# 📚SemSync- KTU Companion
 
 
 A **Flutter-powered** all-in-one academic companion for APJ Abdul Kalam Technological University students, providing seamless access to results, study materials, and smart learning tools.
