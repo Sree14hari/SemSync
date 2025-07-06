@@ -10,7 +10,6 @@ A **Flutter-powered** all-in-one academic companion for APJ Abdul Kalam Technolo
 ### 📊 Academic Tools
 | Feature | Description | 
 |---------|-------------|
-| **Real-time Result Checker** | Instant GPA/SGPA calculation with historical trend analysis |
 | **Smart Notes Finder** | Module-wise categorized materials with verified quality indicators |
 | **Exam Countdown** | Personalized schedule with syllabus coverage tracking |
 
