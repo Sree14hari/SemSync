@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ktu/ui/widgets/sembar.dart';
 
 class KtuApp extends StatelessWidget {
   const KtuApp({super.key});
@@ -8,7 +9,7 @@ class KtuApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "SEMSYNC",
-      home: Scaffold(appBar: AppBar()),
+      home: Scaffold(appBar: Sembar()),
     );
   }
 }
