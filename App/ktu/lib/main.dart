@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
+import 'package:ktu/app.dart';
 
 void main() {
-  runApp(KtuApp);
+  runApp(const KtuApp());
 }
