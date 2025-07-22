@@ -1,7 +1,7 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:iconsax/iconsax.dart';
+
 import 'package:ktu/domain/constants/colors.dart';
 
 class Sembar extends StatelessWidget implements PreferredSizeWidget {
