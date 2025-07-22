@@ -21,10 +21,13 @@ class Sembar extends StatelessWidget implements PreferredSizeWidget {
           end: Alignment.bottomCenter,
           colors: [
             Color(0xFF90B4F2), // Original blue
-            Color(0xFFA7C2F5), // Slightly lighter
-            Color(0xFFBDD2F8), // Softer blue
-            Color(0xFFD4E2FB), // Almost white
-            Color(0xFFFFFFFF), // White
+            Color(0xFF9BBBF3),
+            Color(0xFFA7C2F5),
+            Color(0xFFB2CAF6),
+            Color(0xFFBDD2F8),
+            Color(0xFFC9D9F9),
+            Color(0xFFD4E2FB),
+            Color(0xFFFFFFFF),
           ],
         ),
       ),
@@ -53,6 +56,32 @@ class Sembar extends StatelessWidget implements PreferredSizeWidget {
                     onPressed: () {
                       // Handle notification button press
                     },
+                  ),
+                ],
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(16, 0, 16, 8),
+              child: SearchBar(
+                hintText: 'Quick search pyqs...',
+                elevation: WidgetStateProperty.all(0.0),
+                shape: WidgetStateProperty.all(
+                  RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(20),
+                    side: const BorderSide(color: Color(0xFF90B4F2), width: 1),
+                  ),
+                ),
+                backgroundColor: WidgetStateProperty.all(
+                  const Color(0xffE4EDFE),
+                ),
+                leading: const Padding(
+                  padding: EdgeInsets.all(8.0),
+                  child: Icon(Icons.search, color: Colors.grey),
+                ),
+                trailing: [
+                  const Padding(
+                    padding: EdgeInsets.all(8.0),
+                    child: Icon(Icons.mic, color: Colors.grey),
                   ),
                 ],
               ),
