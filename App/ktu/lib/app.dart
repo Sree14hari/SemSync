@@ -9,7 +9,12 @@ class KtuApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "SEMSYNC",
-      home: Scaffold(appBar: Sembar()),
+      home: Scaffold(
+        backgroundColor: Colors.white,
+        appBar: Sembar(),
+        body: Center(),
+        // <-- Add this line
+      ),
     );
   }
 }
